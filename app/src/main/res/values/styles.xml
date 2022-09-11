@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearance.App.rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+    <style name="ticButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingLeft">46dp</item>
+        <item name="android:paddingRight">46dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.rounded</item>
+    </style>
+    <style name="ticText">
+        <item name="android:textColor">?colorOnSurface</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
